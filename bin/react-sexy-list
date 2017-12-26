@@ -18,9 +18,9 @@ process.on('exit', () => {
  */
 
 request({
-  url: 'https://api.github.com/repos/liberje/react-sexy-template/branches',
+  url: 'https://api.github.com/users/react-sexy-templates/repos',
   headers: {
-    'User-Agent': 'vue-cli'
+    'User-Agent': 'react-sexy'
   }
 }, (err, res, body) => {
   if (err) logger.fatal(err)
@@ -33,7 +33,8 @@ request({
       .map(repo => {
         console.log(
           '  ' + chalk.yellow('★') +
-          '  ' + chalk.blue(repo.name)
+          '  ' + chalk.blue(repo.name) +
+          ' - ' + repo.description
         )
       })
   } else {
