@@ -3,8 +3,11 @@
   "version": "0.0.1",
   "description": "A simple cli of creating react apps.",
   "main": "index.js",
+  "bin": {
+    "react-sexy": "bin/react-sexy"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node bin/react-sexy"
   },
   "repository": {
     "type": "git",
@@ -22,5 +25,11 @@
   "bugs": {
     "url": "https://github.com/LiberJe/react-sexy/issues"
   },
-  "homepage": "https://github.com/LiberJe/react-sexy#readme"
+  "homepage": "https://github.com/LiberJe/react-sexy#readme",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "commander": "^2.12.2",
+    "request": "^2.83.0",
+    "semver": "^5.4.1"
+  }
 }
