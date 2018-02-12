@@ -35,7 +35,7 @@ react-sexy fork自vue-cli，目前已可以简单使用。
 施工中的模板：
 
 - [x] [react-webpack](https://github.com/react-sexy-templates/webpack)
-- [<font color=green>**DONE**</font>] [react-with-router](https://github.com/react-sexy-templates/react-with-router)
-- [<font color=green>**DONE**</font>] [react-redux-router-antd](https://github.com/react-sexy-templates/react-redux-antd)
-- [<font color=yellow>**TODO**</font>] react-mobx-router
-- [<font color=red>**DOING**</font>] react-parcel
+- [x] [react-with-router](https://github.com/react-sexy-templates/react-with-router)
+- [x] [react-redux-router-antd](https://github.com/react-sexy-templates/react-redux-antd)
+- [ ] react-mobx-router
+- [ ] react-parcel
