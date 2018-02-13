@@ -38,4 +38,4 @@ react-sexy fork自vue-cli，目前已可以简单使用。
 - [x] [react-with-router](https://github.com/react-sexy-templates/react-with-router)
 - [x] [react-redux-router-antd](https://github.com/react-sexy-templates/react-redux-antd)
 - [ ] react-mobx-router
-- [ ] react-parcel
+- [x] react-parcel
